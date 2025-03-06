@@ -14,17 +14,13 @@ project(CppTemplateX)
 
 # 设置yaml-cpp库
 set(YAML_CPP_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/yaml-cpp/include)
-set(YAML_CPP_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/yaml-cpp/build/libyaml-cpp.a)
+set(YAML_CPP_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/yaml-cpp/lib/libyaml-cpp.a)
 include_directories(${YAML_CPP_INCLUDE_DIR})
 message(STATUS "YAML_CPP_INCLUDE_DIR: ${YAML_CPP_INCLUDE_DIR}")
 
-# # 设置gflags库
-# set(GFLAGS_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/gflags/cmake-build/include)
-# set(GFLAGS_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/gflags/cmake-build/lib/libgflags.a)
-
 # 设置glog库
-set(GLOG_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/glog/build/glog/include)
-set(GLOG_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/glog/build/libglog.a)
+set(GLOG_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/glog/lib/glog/include)
+set(GLOG_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/glog/lib/libglog.a)
 include_directories(${GLOG_INCLUDE_DIRS})
 
 # if (GLOG_FOUND)

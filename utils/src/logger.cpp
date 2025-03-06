@@ -2,17 +2,17 @@
 #include <glog/logging.h>
 #include <string>
 
-// void Logger::Initialize(const std::string& log_dir) {
-//     // 设置日志文件的存储路径
-//     google::SetLogDestination(google::GLOG_INFO, (log_dir + "/info_").c_str());
-//     google::SetLogDestination(google::GLOG_WARNING, (log_dir + "/warning_").c_str());
-//     google::SetLogDestination(google::GLOG_ERROR, (log_dir + "/error_").c_str());
-//     google::SetLogDestination(google::GLOG_FATAL, (log_dir + "/fatal_").c_str());
+void Logger::Initialize(const std::string& log_dir) {
+    // 设置日志文件的存储路径
+    google::SetLogDestination(google::GLOG_INFO, (log_dir + "/info_").c_str());
+    google::SetLogDestination(google::GLOG_WARNING, (log_dir + "/warning_").c_str());
+    google::SetLogDestination(google::GLOG_ERROR, (log_dir + "/error_").c_str());
+    google::SetLogDestination(google::GLOG_FATAL, (log_dir + "/fatal_").c_str());
 
 
-//     // 初始化glog
-//     google::InitGoogleLogging("MyApp");
-// }
+    // 初始化glog
+    google::InitGoogleLogging("MyApp");
+}
 
 void TestLogging(bool check_counts) {
     int base_num_infos   = google::LogMessage::num_messages(google::GLOG_INFO);
@@ -50,7 +50,7 @@ void TestLogging(bool check_counts) {
 }
   
 
-// void Logger::Shutdown() {
-//     // 关闭glog
-//     google::ShutdownGoogleLogging();
-// }
+void Logger::Shutdown() {
+    // 关闭glog
+    google::ShutdownGoogleLogging();
+}

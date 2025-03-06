@@ -1,3 +1,0 @@
-/mnt/hgfs/sanghao/Major/CppTemplateX/utils/build/CMakeFiles/rebuild_cache.dir
-/mnt/hgfs/sanghao/Major/CppTemplateX/utils/build/CMakeFiles/edit_cache.dir
-/mnt/hgfs/sanghao/Major/CppTemplateX/utils/build/CMakeFiles/test_utils.dir
