@@ -5,7 +5,7 @@
 
 class Logger {
 public:
-    static void Initialize(const std::string& log_dir);
+    static void Initialize(const std::string &logger_name, const std::string& log_dir);
     static void Shutdown();
 };
 
