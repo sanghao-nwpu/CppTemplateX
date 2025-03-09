@@ -75,6 +75,7 @@
         "hash_set": "cpp",
         "slist": "cpp",
         "shared_mutex": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "*.txx": "cpp"
     }
 }
