@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/thirdparty/eigen3/**",
+                "${workspaceFolder}/thirdparty/glog/lib/**",
+                "${workspaceFolder}/thirdparty/yaml-cpp/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+            // "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

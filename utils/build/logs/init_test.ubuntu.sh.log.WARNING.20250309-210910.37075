@@ -1,0 +1,6 @@
+Log file created at: 2025/03/09 21:09:10
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W20250309 21:09:10.649046 37075 test_utils.cpp:64] This is a WARNING message.
+E20250309 21:09:10.649087 37075 test_utils.cpp:65] This is an ERROR message.

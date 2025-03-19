@@ -1,0 +1,5 @@
+Log file created at: 2025/03/09 21:10:50
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20250309 21:10:50.949010 37231 test_utils.cpp:65] This is an ERROR message.

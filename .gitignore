@@ -1,7 +1,5 @@
 # build files
-/build/
-/utils/build/
-/third_party/
+/build/*
 
 # Prerequisites
 *.d
