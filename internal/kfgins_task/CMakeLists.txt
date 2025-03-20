@@ -10,6 +10,9 @@ message("PROJECT_WORKSPACE_DIR: ${PROJECT_WORKSPACE_DIR}")
 # include eigen library
 include(${LIBRARY_CMAKE_DIRECTORY}/eigen.cmake)
 
+# include common module
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/common/include)
+
 # include rotation module
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/rotation/include)
 

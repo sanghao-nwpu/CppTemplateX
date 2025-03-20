@@ -74,6 +74,9 @@
         "bit": "cpp",
         "dense": "cpp",
         "*.inc": "cpp",
-        "alignedvector3": "cpp"
+        "alignedvector3": "cpp",
+        "nnls": "cpp",
+        "fft": "cpp",
+        "core": "cpp"
     }
 }
